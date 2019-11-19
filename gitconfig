@@ -1,0 +1,11 @@
+[user]
+	name = Joel Krauska
+	email = jkrauska@gmail.com
+[core]
+	excludesfile = /Users/jkrauska/.gitignore_global
+[submodule]
+	recurse = true
+[rebase]
+	autoStash = true
+[pull]
+	rebase = true

@@ -1,0 +1,7 @@
+*~
+\#*\#
+.vscode
+_build*
+.DS_Store*
+*.DS_Store
+__pycache__/
