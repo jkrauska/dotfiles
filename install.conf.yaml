@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.emacs: emacs
+    ~/🐈: 🐈
+
+
+- create:
+    - ~/downloads
+    - ~/.emacs-saves
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
