@@ -8,8 +8,6 @@
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.emacs: emacs
-    ~/🐈: 🐈
-
 
 - create:
     - ~/downloads
