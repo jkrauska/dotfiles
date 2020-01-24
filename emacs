@@ -1,4 +1,3 @@
-(require 'ocp-indent) ; ocaml indent
 
 (setq backup-by-copying t      ; don't clobber symlinks
       backup-directory-alist '(("." . "~/.emacs-saves/"))    ; don't litter my fs tree
