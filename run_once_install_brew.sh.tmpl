@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Only run on macOS
+if [[ "$(uname)" != "Darwin" ]]; then
+  echo "Not macOS — skipping Homebrew install"
+  exit 0
+fi
+
+# Install Homebrew if it's not installed
+if ! command -v brew &> /dev/null; then
+  echo "Installing Homebrew..."
+  NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+# Use the Brewfile managed by chezmoi
+echo "Installing Homebrew packages from Brewfile..."
+brew bundle --file="$HOME/Brewfile"
