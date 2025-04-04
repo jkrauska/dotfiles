@@ -1,0 +1,9 @@
+# Shared aliases
+# [ -f ~/.aliases ] && source ~/.aliases
+
+
+alias ls="eza"
+alias ll="eza -lah"
+alias lt="eza -T"
+alias gs="git status"
+alias ..="cd .."
