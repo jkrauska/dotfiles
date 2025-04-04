@@ -7,3 +7,15 @@ alias ll="eza -lah"
 alias lt="eza -T"
 alias gs="git status"
 alias ..="cd .."
+
+alias code="open -a 'Visual Studio Code'"
+alias c.="code ."
+
+
+alias cat='bat'                       # Replace cat with bat
+alias catt='command cat'             # In case you still want the original cat
+alias batn='bat -n'                  # Show line numbers (redundant, but explicit)
+alias batp='bat --paging=always'     # Force paging even if content fits
+alias batf='bat --style=full'        # Show full file with header, grid, etc.
+alias batl='bat --style=plain'       # Disable decoration, pure content
+alias batd='bat --diff'              # Show git-style diffs
