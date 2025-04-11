@@ -1,4 +1,5 @@
-tap "homebrew/cask-fonts"
+# Brew installed stuff
+
 # TIFF library and utilities
 brew "libtiff"
 # New file format for still image compression
@@ -133,4 +134,3 @@ vscode "ms-vscode.makefile-tools"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-server"
 vscode "saoudrizwan.claude-dev"
-vscode "withfig.fig"
