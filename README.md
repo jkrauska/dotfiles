@@ -16,3 +16,8 @@ brew install chezmoi
 ```bash
 chezmoi init --apply jkrauska
 ```
+
+
+Other bits:
+
+`p10k configure` to install meslo font and set as default for iterm2
