@@ -88,8 +88,6 @@ brew "sdcc"
 brew "sox"
 # Generate scripting interfaces to C/C++ code
 brew "swig"
-# Easiest, most secure way to use WireGuard and 2FA
-brew "tailscale"
 # Command-line unarchiving tools supporting multiple formats
 brew "unar"
 # Feature-rich command-line audio/video downloader
